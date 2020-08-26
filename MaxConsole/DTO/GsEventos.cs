@@ -1,0 +1,99 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace MaxConsole.DTO
+{
+    public partial class GsEventos
+    {
+        public int EvtId { get; set; }
+        public int AssId { get; set; }
+        public int? EvtNum { get; set; }
+        public int? OrcId { get; set; }
+        public int? CliforId { get; set; }
+        public int? FunId { get; set; }
+        public int? EmpId { get; set; }
+        public int? NfId { get; set; }
+        public int? ConpagId { get; set; }
+        public DateTime? EvtData { get; set; }
+        public int? EvtSit { get; set; }
+        public string EvtTipo { get; set; }
+        public string EvtEventoNome { get; set; }
+        public string EvtEventoLocal { get; set; }
+        public string EvtEventoTipo { get; set; }
+        public DateTime? EvtDatini { get; set; }
+        public DateTime? EvtDatfim { get; set; }
+        public int? EvtVisita { get; set; }
+        public DateTime? EvtVisitaData { get; set; }
+        public int? EvtVisitaHora { get; set; }
+        public string EvtObsint { get; set; }
+        public decimal? EvtValmat { get; set; }
+        public int? EvtItemat { get; set; }
+        public int? EvtQtdmat { get; set; }
+        public decimal? EvtSubtotal { get; set; }
+        public decimal? EvtValordesp { get; set; }
+        public decimal? EvtValordesc { get; set; }
+        public decimal? EvtValortotal { get; set; }
+        public string EvtEmailContato { get; set; }
+        public string EvtEvtContato { get; set; }
+        public string EvtContatoDdd { get; set; }
+        public string EvtContatoFone { get; set; }
+        public DateTime? EvtValidade { get; set; }
+        public string EvtEvtEnd { get; set; }
+        public string EvtEvtNum { get; set; }
+        public string EvtEvtCpl { get; set; }
+        public string EvtEvtCep { get; set; }
+        public string EvtEvtBai { get; set; }
+        public int? EvtEvtCidid { get; set; }
+        public string EvtEvtTel { get; set; }
+        public string EvtEvtDdd { get; set; }
+        public int? EvtIteeqt { get; set; }
+        public int? EvtQtdeqt { get; set; }
+        public decimal? EvtValeqt { get; set; }
+        public int? EvtTabpre { get; set; }
+        public int? CidId { get; set; }
+        public int? CliforconId { get; set; }
+        public DateTime? EvtDatapr { get; set; }
+        public int? EvtChqclc { get; set; }
+        public DateTime? EvtChqclcemi { get; set; }
+        public int? EvtChqclcbanid { get; set; }
+        public string EvtChqclcage { get; set; }
+        public string EvtChqclccc { get; set; }
+        public decimal? EvtChqclcval { get; set; }
+        public int? EvtTabprecotip { get; set; }
+        public int? EvtTabpreco { get; set; }
+        public int? EvtDetequip { get; set; }
+        public string EvtInfevt { get; set; }
+        public int? SysDel { get; set; }
+        public DateTime? SysDatcad { get; set; }
+        public decimal? EvtCustomat { get; set; }
+        public decimal? EvtCustoeqt { get; set; }
+        public decimal? EvtCustoserv { get; set; }
+        public decimal? EvtCustotec { get; set; }
+        public decimal? EvtCustodesp { get; set; }
+        public decimal? EvtCustobv { get; set; }
+        public decimal? EvtCustoadian { get; set; }
+        public decimal? EvtVlrttdespesa { get; set; }
+        public decimal? EvtVlrttcomisao { get; set; }
+        public decimal? EvtVlrttlucrobru { get; set; }
+        public decimal? EvtVlrttlucroliq { get; set; }
+        public decimal? EvtVlrttdespfixa { get; set; }
+        public decimal? EvtVlrttdespvar { get; set; }
+        public int? EvtDiaevt { get; set; }
+        public int? EvtDiaevtcob { get; set; }
+        public DateTime? EvtDataencerrado { get; set; }
+        public DateTime? EvtDatafinalizado { get; set; }
+        public int? EvtFixval { get; set; }
+        public int? EvtComissaoflag { get; set; }
+        public double? EvtComissaofun { get; set; }
+        public decimal? EvtVlcobrado { get; set; }
+        public decimal? EvtVlnaocobrado { get; set; }
+        public int? TiptranspId { get; set; }
+        public int? CtldocId1 { get; set; }
+        public int? CtldocId2 { get; set; }
+        public int? CtldocId3 { get; set; }
+        public int? EvtTagagr { get; set; }
+        public string EvtResumo { get; set; }
+        public int? EvtNcobradv { get; set; }
+        public int? EvtUseId { get; set; }
+    }
+}
