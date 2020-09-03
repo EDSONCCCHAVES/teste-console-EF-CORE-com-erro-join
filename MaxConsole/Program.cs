@@ -28,8 +28,8 @@ namespace MaxConsole
             int cont = 1;
             using (var MaxDb = new db603Context())
             {
-                var inova = from des in MaxDb.GsEquipamentosApresentacao
-                            join seria in MaxDb.GsEquipamentosSerie
+                var inova = from seria in MaxDb.GsEquipamentosSerie
+                            join des in MaxDb.GsEquipamentosApresentacao on seria.EptaprId equals des.EptaprId
                             join equipe in MaxDb.GsEquipamentos on des.EptId equals equipe.EtqId
                             join almoxarifado in MaxDb.GsAlmoxarifados on seria.AmxId equals almoxarifado.AmxId into almox
                             from a in almox.DefaultIfEmpty()
@@ -41,7 +41,7 @@ namespace MaxConsole
                             from f in famil.DefaultIfEmpty()
                             join FABRICA in MaxDb.GsEquipamentosFabricantes on seria.FabeqtId equals FABRICA.FabeqtId into fabi
                             from fa in fabi.DefaultIfEmpty()
-                            where seria.EqtserNumpat.Contains("00")
+                            where seria.EqtserNumpat.Contains("00603")
                             select new
                             {
                                 contador = cont,
@@ -71,6 +71,8 @@ namespace MaxConsole
                     Console.Write(ser.Conta + "  ");
                     Console.WriteLine();
                     cont++;
+                    Console.Write("totalizacao de itens  :" +cont);
+
                 }
                 //        var retorno = new BuscarCodigoId();
                 //        Console.WriteLine(retorno);
