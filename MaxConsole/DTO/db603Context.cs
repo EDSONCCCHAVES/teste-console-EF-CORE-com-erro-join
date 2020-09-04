@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace MaxConsole.DTO
 {
@@ -13,6 +12,7 @@ namespace MaxConsole.DTO
         public db603Context(DbContextOptions<db603Context> options)
             : base(options)
         {
+            var log = _myContext.Log.FirstOrDefault(o => o.Id > 0);
         }
 
         public virtual DbSet<EctBairros> EctBairros { get; set; }

@@ -42,7 +42,6 @@ C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\bin\Debug\netcoreapp
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\obj\Debug\netcoreapp3.1\MaxConsole.csproj.CopyComplete
-C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\obj\Debug\netcoreapp3.1\MaxConsole.csproj.CoreCompileInputs.cache
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\bin\Debug\netcoreapp3.1\MaxConsole.deps.json
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\bin\Debug\netcoreapp3.1\MaxConsole.runtimeconfig.json
@@ -53,3 +52,4 @@ C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\obj\Debug\netcoreapp
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\obj\Debug\netcoreapp3.1\MaxConsole.pdb
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\obj\Debug\netcoreapp3.1\MaxConsole.genruntimeconfig.cache
 C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\obj\Debug\netcoreapp3.1\MaxConsole.csprojAssemblyReference.cache
+C:\Users\edson\source\repos\maxteste\maxsconsole\MaxConsole\obj\Debug\netcoreapp3.1\MaxConsole.csproj.CoreCompileInputs.cache

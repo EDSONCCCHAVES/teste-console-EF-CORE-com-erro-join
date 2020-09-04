@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CJjtk3LIh1k2FqH4i9ilFfez3wh5OV6Cegh1eeSjYCdHRqeAjwZcMduWcM3rGQPkV7RrjkBUiliJ5GGQaLKf/A==",
+  "dgSpecHash": "7KlrHgP8xLRxH0uYx8V3nvoKa9Fj+1Lp0XXkaDbpsrLyQCoHHq1vHppTG5wRAISstH99wUtq0meW/72FCtkrtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\edson\\source\\repos\\maxteste\\maxsconsole\\MaxConsole\\MaxConsole.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\edson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512",
     "C:\\Users\\edson\\.nuget\\packages\\microsoft.extensions.logging\\3.1.7\\microsoft.extensions.logging.3.1.7.nupkg.sha512",
     "C:\\Users\\edson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.7\\microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\edson\\.nuget\\packages\\microsoft.extensions.logging.debug\\3.1.7\\microsoft.extensions.logging.debug.3.1.7.nupkg.sha512",
     "C:\\Users\\edson\\.nuget\\packages\\microsoft.extensions.options\\3.1.7\\microsoft.extensions.options.3.1.7.nupkg.sha512",
     "C:\\Users\\edson\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
     "C:\\Users\\edson\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
